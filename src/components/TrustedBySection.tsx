@@ -6,7 +6,7 @@ const TrustedBySection = () => {
         <div className="text-center mb-12">
           <h3 className="text-lg text-gray-500 font-semibold">Our Global Partners:</h3>
           <div className="flex justify-center flex-wrap gap-6 sm:gap-10 md:gap-12 mt-4">
-            {['/uni1.png', '/uni2.png', '/uni3.png', '/uni4.png', '/uni5.png', '/uni6.png'].map((item, index) => (
+            {['uni1.png', 'uni2.png', 'uni3.png', 'uni4.png', 'uni5.png', 'uni6.png'].map((item, index) => (
               <div
                 key={index}
                 className="flex items-center space-x-2 grayscale-75 hover:grayscale-0 text-gray-400 text-sm sm:text-base"
